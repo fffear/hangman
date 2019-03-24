@@ -1,0 +1,55 @@
+ _____ __  __                 _         _   _   
+|  ___/ _|/ _| ___  __ _ _ __( )___    | | | | __ _ _ __   __ _ _ __ ___   __ _ _ __   
+| |_ | |_| |_ / _ \/ _` | '__|// __|   | |_| |/ _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+|  _||  _|  _|  __/ (_| | |    \__ \   |  _  | (_| | | | | (_| | | | | | | (_| | | | |
+|_|  |_| |_|  \___|\__,_|_|    |___/   |_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+	                                                  |___/                       
+Welcome to Fffear's Hangman!
+
+The rules of the game are simple.
+
+The computer will randomly generate a secret word, which you will have to try to guess.
+
+There will be a series of blank lines for every letter of the secret word.
+
+For example, if the secret word is:
+
+'rabbit':
+'_ _ _ _ _ _'
+
+A series of 6 blank spaces will appear to represent each letter of the word.
+
+Your job will be to guess the word by guessing letters in the word 1 at a time.
+
+For example, if you guessed a letter correctly, the correctly gussed letter will populate the blank lines at the correct spot.
+
+If you guess 'b' with the secret word being:
+
+'rabbit':
+'_ _ b b _ _'
+
+Every wrong guess however, will bring you 1 step closer to losing, as depicted by the drawing of the hanging man.
+
+For example: The player below has made 2 incorrect guesses, corresponding with the drawing of the head and body of the man to be hung.
+
+             +-----+
+             |     |
+             0     |
+             |     |
+                   |
+                   |
+                   |
+                   |
+             ============
+
+If you fail in 6 guesses, the man will be hung and you lose!
+
+             +-----+
+             |     |
+             0     |
+            /|\    |
+            / \    |
+                   |
+                   |
+                   |
+             ============
