@@ -42,7 +42,7 @@ If you guessed a letter incorrectly, the incorrect letter you have guessed will 
 
 If you fail to guess the secret word before the man is hung, you lose.
 
-![Lose_game}(./screenshots/lose_game.png)
+![Lose_game](./screenshots/lose_game.png)
 
 Otherwise, if you can guess the secret word before the man is hung, you win.
 
