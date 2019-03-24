@@ -253,6 +253,7 @@ class Game
     puts "\nThe secret word is '#{secret_word}'"
     puts "\nThe man has been hung!"
     puts "\nYOU LOSE!"
+    puts hangman.display
     raise StopIteration
   end
 end
